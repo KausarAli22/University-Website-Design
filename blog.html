@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <section class="sub-header">
+       <nav>
+           <a href="index.html"><img src="images/logo.png" alt=""></a>
+           <div class="nav-list" id="navList">
+               <div id="hide"><i class="fa fa-times"></i></div>
+               <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="course.html">COURSE</a></li>
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+           </div>
+           <div id="show"><i class="fa fa-bars"></i></div>
+       </nav>
+       <h1>Our Certificate & Online Programs For 2021</h1>
+   </section>
+
+   <!---------------- blog-content ------------------>
+   <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate & Online Programs For 2021</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, ea culpa. Ipsum distinctio sapiente quasi deleniti, voluptatibus quam consequuntur, molestias dicta possimus dolore suscipit voluptas debitis sunt doloribus odio nemo.</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt facere architecto numquam velit voluptas explicabo iusto voluptatum dolor modi consectetur alias natus harum voluptatibus vitae a blanditiis, tenetur perferendis accusantium! Iste dolore, error ea quia fugiat inventore deserunt accusantium labore.</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia ea a itaque velit? Non consectetur dicta expedita dolores saepe voluptatum libero quasi earum possimus ipsum fugiat eius quo eum magni, provident voluptate. Inventore accusamus vero earum aperiam nulla quas perferendis.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto laborum dolorem harum debitis eius illo laboriosam doloremque dignissimos quaerat expedita? Doloribus quibusdam amet optio, delectus voluptatem eius dolores eaque, magnam est ab repellat deserunt adipisci?</p>
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Mining</span>
+                <span>24</span>
+            </div>
+            <div>
+                <span>App Development</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Web Devolepoment</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>26</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>11</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>23</span>
+            </div>
+            <div>
+                <span>Auto Cad</span>
+                <span>20</span>
+            </div>
+            <div>
+                <span>Java</span>
+                <span>19</span>
+            </div>
+        </div>
+    </div>
+</section>
+   <!------------------ Footer ------------------>
+   <section class="footer">
+    <h4>About US</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Mollitia quas temporibus quo natus impedit doloribus.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Kausar Ali.</p>
+</section>
+<script>
+    var navList = document.getElementById("navList")
+    function hidemenu() {
+        navList.classList.remove('open')
+    }
+    function showMenu() {
+        console.log("dcvdsv")
+        navList.classList.add('open')
+    }
+    document.getElementById('show').addEventListener('click', showMenu)
+    document.getElementById('hide').addEventListener('click', hidemenu)
+
+</script>
+</body>
+</html>

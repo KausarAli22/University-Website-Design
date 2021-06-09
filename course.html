@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <section class="sub-header">
+       <nav>
+           <a href="index.html"><img src="images/logo.png" alt=""></a>
+           <div class="nav-list" id="navList">
+               <div id="hide"><i class="fa fa-times"></i></div>
+               <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+           </div>
+           <div id="show"><i class="fa fa-bars"></i></div>
+       </nav>
+       <h1>Our Courses</h1>
+   </section>
+
+   <!---------------- courses ------------------>
+   <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ea earum eligendi.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermidate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse nulla magnam quo veritatis commodi quis eius nihil ex molestiae, distinctio, cum, pariatur veniam! Veniam maxime dolorum, illo tempora tempore cupiditate suscipit. Consectetur, facere quae.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse nulla magnam quo veritatis commodi quis eius nihil ex molestiae, distinctio, cum, pariatur veniam! Veniam maxime dolorum, illo tempora tempore cupiditate suscipit. Consectetur, facere quae.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse nulla magnam quo veritatis commodi quis eius nihil ex molestiae, distinctio, cum, pariatur veniam! Veniam maxime dolorum, illo tempora tempore cupiditate suscipit. Consectetur, facere quae.</p>
+        </div>
+    </div>
+</section>
+
+   <!---------------- Facilities ---------------->
+   <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda corrupti aperiam molestiae aliquam incidunt culpa?</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur hic sint ut nostrum similique!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur hic sint ut nostrum similique!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur hic sint ut nostrum similique!</p>
+        </div>
+    </div>
+</section>
+
+   <!------------------ Footer ------------------>
+   <section class="footer">
+    <h4>About US</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Mollitia quas temporibus quo natus impedit doloribus.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Kausar Ali.</p>
+</section>
+<script>
+    var navList = document.getElementById("navList")
+    function hidemenu() {
+        navList.classList.remove('open')
+    }
+    function showMenu() {
+        console.log("dcvdsv")
+        navList.classList.add('open')
+    }
+    document.getElementById('show').addEventListener('click', showMenu)
+    document.getElementById('hide').addEventListener('click', hidemenu)
+
+</script>
+</body>
+</html>
